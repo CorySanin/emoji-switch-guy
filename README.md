@@ -8,7 +8,7 @@ This is a Magisk Module that can replace the system-wide emoji font with one fro
 - Google - 9.0
 - Samsung - 9.0
 - **Microsoft - missing!**
-- **Apple - missing!**
+- **Apple - iOS 10**
 
 note: bolded sets are out-of-date and could use an update! 😉
 
