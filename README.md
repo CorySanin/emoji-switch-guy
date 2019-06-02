@@ -14,9 +14,11 @@ note: bolded sets are out-of-date and could use an update! 😉
 
 ## Installation
 
-Install through Magisk Manager.
+Install through Magisk Manager. Select the desired emoji set using the volume buttons. Upgrades will retain the selected emoji set. To undo the modification, remove the module.
 
 ## Changelog
 
-### v1.0
-- Still WIP
+### v0.0.1
+- Get the project off the ground
+- Using any ttf files I can find
+- Please help!

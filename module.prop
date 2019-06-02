@@ -1,7 +1,7 @@
 id=emoji-switch-guy
 name=Emoji Switch Guy
-version=v1.0
+version=v0.0.1
 versionCode=1
 author=CorySanin
 description=Systemlessly replace your emoji set
-support=
+support=https://github.com/CorySanin/emoji-switch-guy
