@@ -4,8 +4,12 @@ setEmoji(){
     fi
     mkdir -p $MODPATH/system/fonts
     cp $TMPDIR/fonts/$1 $MODPATH/system/fonts/NotoColorEmoji.ttf
-    cp $TMPDIR/fonts/$1 $MODPATH/system/fonts/SamsungColorEmoji.ttf
-    cp $TMPDIR/fonts/$1 $MODPATH/system/fonts/hTC_ColorEmoji.ttf
+    if [ -e /system/fonts/SamsungColorEmoji.ttf ]; then
+        cp $TMPDIR/fonts/$1 $MODPATH/system/fonts/SamsungColorEmoji.ttf
+    fi
+    if [ -e /system/fonts/hTC_ColorEmoji.ttf ]; then
+        cp $TMPDIR/fonts/$1 $MODPATH/system/fonts/hTC_ColorEmoji.ttf
+    fi
     echo $1 >> $MODPATH/font.txt
     ui_print "Installed $1."
 }
