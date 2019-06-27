@@ -33,7 +33,12 @@ else
         else
             ui_print "Would you like to use Google's emojiset?"
             if $VKSEL; then
-                setEmoji NotoColorEmoji.ttf
+                ui_print "Would you like to use the latest Google emojiset? Volume down to install Android 6.0.1."
+                if $VKSEL; then
+                    setEmoji NotoColorEmoji.ttf
+                else
+                    setEmoji NotoColorEmoji-6.0.1.ttf
+                fi
             else
 #               ui_print "Would you like to use Microsoft's emojiset?"
 #               if $VKSEL; then
