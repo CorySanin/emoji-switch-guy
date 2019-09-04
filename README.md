@@ -18,6 +18,9 @@ Install through Magisk Manager. Select the desired emoji set using the volume bu
 
 ## Changelog
 
+## v0.0.3
+- Bump Google Noto Emoji from 9.0  to 10.0
+
 ## v0.0.2
 - Bump Joypixels from 4.5 to 5.0
 - Add Android 6.0.1 emoji set
