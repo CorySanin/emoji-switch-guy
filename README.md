@@ -5,7 +5,7 @@ This is a Magisk Module that can replace the system-wide emoji font with one fro
 
 - **Twemoji - ??**
 - JoyPixels - 5.0
-- Google - 9.0 and 6.0.1
+- Google - 10.0 and 6.0.1
 - Samsung - 9.0
 - **Microsoft - missing!**
 - **Apple - iOS 10**
