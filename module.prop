@@ -1,7 +1,7 @@
 id=emoji-switch-guy
 name=Emoji Switch Guy
-version=v0.0.3
-versionCode=3
+version=v0.0.4
+versionCode=4
 author=CorySanin
 description=Systemlessly replace your emoji set
 support=https://github.com/Magisk-Modules-Repo/emoji-switch-guy
